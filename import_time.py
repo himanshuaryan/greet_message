@@ -1,20 +1,20 @@
-# greet_message
-#According your system time, greeting message.
+# importing time module
 import time
 
 timestamp = time.strftime('%H:%M:%S')
-t = timestamp
+t = timestamp #show current time
 timestamp = time.strftime('%H')
-h = int(timestamp)
+h = int(timestamp) #show hours only
 timestamp = time.strftime('%M')
-m = int(timestamp)
+m = int(timestamp) #show minutes only
 timestamp = time.strftime('%S')
-s = int(timestamp)
+s = int(timestamp) #show seconds only
 
 show = "Current Time"
 print(show.center(56),'\n',t.center(53),'\n')
-name = input("Your Full Name : ").title()
+name = input("Your Full Name : ").title() #showing output
 
+#applying special conditions
 if h>=6 and h<=11:
     if m>=00 or m<59:
         if s>=00 or s<59:
