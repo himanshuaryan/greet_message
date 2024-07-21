@@ -1,4 +1,4 @@
-print("\t\t\t\t\t\tcoded by @081user\n")
+print("coded by @himanshuaryan".center(110),'\n')
 
 import time #importing time
 
@@ -63,7 +63,7 @@ print("\nSubtraction of",a, "and", b, ":", sub)
 mltp = a*b #Multiplication0
 print("\nMultiplication of",a, "and", b, ":", mltp)
 div = a/b#Division
-print("\nDivion of", a, "and",b,":",div) 
+print("\nDivision of", a, "and",b,":",div) 
 sqra=a**2 #square
 print("\nSquare of", a, ":",sqra) 
 sqrb=b**2
