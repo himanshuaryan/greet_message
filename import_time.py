@@ -2,17 +2,17 @@
 import time
 
 timestamp = time.strftime('%H:%M:%S')
-t = timestamp #show current time
+t = timestamp #import current time
 timestamp = time.strftime('%H')
-h = int(timestamp) #show hours only
+h = int(timestamp) #import hours only
 timestamp = time.strftime('%M')
-m = int(timestamp) #show minutes only
+m = int(timestamp) #import minutes only
 timestamp = time.strftime('%S')
-s = int(timestamp) #show seconds only
+s = int(timestamp) #import seconds only
 
 show = "Current Time"
 print(show.center(56),'\n',t.center(53),'\n')
-name = input("Your Full Name : ").title() #showing output
+name = input("Your Full Name : ").title() #showing current output
 
 #applying special conditions
 if h>=6 and h<=11:
